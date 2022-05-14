@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-study",
+  "version": "1.0.0",
+  "description": "Repository used to staudy Next.js",
+  "main": "index.js",
+  "repository": "git@github.com:sevilha/nextjs-study.git",
+  "author": "Vinicius Sevilha <vd.sevilha@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@skynexui/components": "^1.25.0",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "typescript": "^4.6.4"
+  }
+}
